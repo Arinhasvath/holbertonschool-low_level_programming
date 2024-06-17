@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S 0$CFILE.c > $CLIFE.s
+gcc -S $CFILE.c > $CLIFE.s
