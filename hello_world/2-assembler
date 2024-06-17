@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E $CFILE.c > -o $CFILE.s
+gcc -o $CFILE.c > $CFILE.s
