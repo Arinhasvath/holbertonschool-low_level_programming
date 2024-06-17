@@ -1,3 +1,2 @@
 #include <stdio.h>
-int main(void)
-gcc int puts("Programming is like building a multilingual puzzle")\0
+gcc -o $4-puts "Programming is like building a multilingual puzzle" 4-puts.c
