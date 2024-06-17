@@ -1,2 +1,2 @@
-#include <stdio.h>
-gcc -o $4-puts "Programming is like building a multilingual puzzle" 4-puts.c
+#!/bin/bash
+gcc -o puts"Programming is like building a multilingual puzzle" 4-puts.c
