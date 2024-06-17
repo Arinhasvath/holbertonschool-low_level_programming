@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -O $CFILE > o rm *.o
+gcc $CFILE > -o 
