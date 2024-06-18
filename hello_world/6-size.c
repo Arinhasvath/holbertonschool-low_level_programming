@@ -1,5 +1,5 @@
 /*
-*main : debut du truc 
+*main : debut du truc
 *Structs, enums and unions definitions
 *Typedefs : omfg
 *Function prototypes
