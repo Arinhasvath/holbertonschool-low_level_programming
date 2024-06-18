@@ -1,5 +1,5 @@
 /*
-*main : debut du truc
+*main : main block
 *Structs, enums and unions definitions
 *Typedefs : omfg
 *Function prototypes
