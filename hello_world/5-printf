@@ -1,6 +1,6 @@
 /*
 * Structs, enums and unions definitions
-* Typedefs
+* Typedefs : Your program should compile without warning when using the -Wall gcc option
 * Function prototypes
 */
 #include <stdio.h>
