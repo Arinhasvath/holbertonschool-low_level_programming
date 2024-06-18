@@ -1,11 +1,11 @@
 /**
- * main - Entry point
- * 
- * Description: llll
- * 
- * 
- * Return: Always 0 (Success)
- */
+* main - Entry point
+*
+* Description: llll
+*
+*
+* Return: Always 0 (Success)
+*/
 #include <stdio.h>
 int main(void)
 {
