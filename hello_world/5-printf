@@ -1,7 +1,7 @@
-/**
-* main - Entry point
-*
-* Return: Always 0 (Success)
+/*
+* Structs, enums and unions definitions
+* Typedefs
+* Function prototypes
 */
 #include <stdio.h>
 int main(void)
