@@ -1,8 +1,6 @@
 /*
-*main : main block
-*Structs, enums and unions definitions
-*Typedefs : omfg
-*Function prototypes
+*main - main block
+*return:0
 */
 #include <stdio.h>
 int main(void)
