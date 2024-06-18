@@ -1,4 +1,4 @@
-/*
+/**
 *main-main block
 *return:0
 */
