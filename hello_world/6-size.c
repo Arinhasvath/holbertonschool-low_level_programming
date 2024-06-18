@@ -1,6 +1,6 @@
 /*
 * Structs, enums and unions definitions
-* Typedefs : ( .  )(  .  )
+* Typedefs : omfg
 * Function prototypes
 */
 #include <stdio.h>
