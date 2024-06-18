@@ -1,7 +1,8 @@
 /*
-* Structs, enums and unions definitions
-* Typedefs : omfg
-* Function prototypes
+*main : debut du truc 
+*Structs, enums and unions definitions
+*Typedefs : omfg
+*Function prototypes
 */
 #include <stdio.h>
 int main(void)
