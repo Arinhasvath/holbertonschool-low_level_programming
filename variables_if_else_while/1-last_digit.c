@@ -6,7 +6,7 @@
 /**
 * main - Entry point
 *
-* Description: llll
+* Description: ll
 *
 *
 * Return: Always 0 (Success)
@@ -19,18 +19,19 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	last_digit = n % 10;
+	printf("last digit of %d is %d and is ", n, last_digit)
 
-if (last_digit >= 5)
+	if (last_digit > 5)
 {
-	printf("last_digit of %d is %d and is greater than 5\n", n, last_digit);
+	printf("is greater than 5\n");
 }
-	if (last_digit == 0)
+	else if (last_digit == 0)
 {
-	printf("last_digit of %d is %d is zero 0\n", n, last_digit);
+	printf("is zero 0\n");
 }
-else if (last_digit < 6)
+	else
 {
-	printf("last_digit of %d is %d and is less than 6 and not 0\n", n, last_digit);
+	printf("less than 6 or not 0\n");
 }
 	return (0);
 }
