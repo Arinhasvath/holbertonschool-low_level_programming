@@ -26,11 +26,11 @@ int main(void)
 }
 	else if (last_digit == 0)
 {
-	printf("zero 0\n");
+	printf("0\n");
 }
 	else
 {
-	printf("less than 6 or not 0\n");
+	printf("less than 6 and not 0\n");
 }
 	return (0);
 }
