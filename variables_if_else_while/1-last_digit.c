@@ -22,11 +22,11 @@ int main(void)
 
 	if (last_digit > 5)
 {
-	printf("is greater than 5\n");
+	printf("greater than 5\n");
 }
 	else if (last_digit == 0)
 {
-	printf("is zero 0\n");
+	printf("zero 0\n");
 }
 	else
 {
