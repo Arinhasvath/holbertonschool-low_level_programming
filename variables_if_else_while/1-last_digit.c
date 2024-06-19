@@ -17,17 +17,17 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-if (Last_digit >= 5)
+if (last_digit >= 5)
 {
-	printf("%d and is greater than 5\n", n, Last_digit);
+	printf("%d and is greater than 5\n", n, last_digit);
 }
-	if (Last_digit == 0)
+	if (last_digit == 0)
 {
-	printf("%d is zero 0\n", n, Last_digit);
+	printf("%d is zero 0\n", n, last_digit);
 }
-else if (Last_digit < 6)
+else if (last_digit < 6)
 {
-	printf("%d and is less than 6 and not 0\n", n, Last_digit);
+	printf("%d and is less than 6 and not 0\n", n, last_digit);
 }
 	return (0);
 }
