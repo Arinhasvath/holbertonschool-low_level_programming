@@ -17,18 +17,18 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
-	if (n > 5)
+Last_night = n % ;
+if (Last_digit > 5)
 {
-	printf("%d and is greater than 5\n", n);
+	printf("%d and is greater than 5\n", n, Last_digit);
 }
-	if (n == 0)
+	if (Last_digit == 0)
 {
-	printf("%d is zero 0\n", n);
+	printf("%d is zero 0\n", n, Last_digit);
 }
-	if (n < 0)
+else if (Last_digit < 6)
 {
-	printf("%d is negative 0\n", n);
+	printf("%d and is less than 6 and not 0\n", n, Last_digit);
 }
 	return (0);
 }
