@@ -11,6 +11,8 @@
 */
 int main(void)
 {
-	printf("abcdefghijklmnopqrstwxyz\n")
+	{
+	printf("abcdefghijklmnopqrstwvwxyz\n")
+	}
 	return (0);
 }
