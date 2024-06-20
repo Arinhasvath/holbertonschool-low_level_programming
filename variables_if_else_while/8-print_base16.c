@@ -13,9 +13,13 @@ int main(void)
 	int num;
 	int alpha;
 
-	for (num = '0'; num <= '9'; num++; alpha = 'a'; alpha <= 'f'; alpha++)
+	for (num = '0'; num <= '9'; num++)
 	{
-		putchar(num alpha);
+		putchar(num);
+	}
+	for (alpha = 'a'; alpha <= 'f'; alpha++)
+	{
+		putchar(alpha);
 	}
 	putchar('\n');
 	return (0);
