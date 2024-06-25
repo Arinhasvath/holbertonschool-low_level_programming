@@ -1,16 +1,19 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
+/**
+* my_function - _isppuer
+* @c :test variable
+* return : 1 = uppercase 0 = lower
+* Does my stuff explained.
+*/
 
 int _isupper(int c)
 {
 	if (c >= 65 && c <= 90)
 	{
-	printf("1");
 	return (1);
 	}
 	else
 	{
-	printf("0");
 	return (0);
 	}
 }
