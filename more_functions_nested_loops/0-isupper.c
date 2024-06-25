@@ -1,11 +1,16 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 int _isupper(int c)
-	int c;
 {
-	if (c >= 'A' && c <= 'Z')
+	if (c >= 65 && c <= 90)
 	{
+	printf("1");
 	return (1);
 	}
+	else
+	{
+	printf("0");
 	return (0);
+	}
 }
