@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 *
 *
@@ -7,12 +8,11 @@
 */
 void print_numbers(void)
 {
-	int numb;
+	char numb []= "0123456789\n";
+	int i;
+	
+	for (i = 0; numb[i] != '0'; i++)
 	{
-	for (numb '0'; numb <= '9'; numb++)
-		_putchar(numb);
+		_putchar(numb[i]);
 	}
-	}
-	_putchar ('\n');
-}
 }
