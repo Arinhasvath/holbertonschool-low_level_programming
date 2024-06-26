@@ -8,11 +8,11 @@
 */
 void print_numbers(void)
 {
-	char numb []= "0123456789\n";
-	int i;
+	char c;
 	
-	for (i = 0; numb[i] != '0'; i++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		_putchar(numb[i]);
+		_putchar(c);
 	}
+	_putchar('\n');
 }
