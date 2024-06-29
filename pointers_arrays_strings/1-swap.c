@@ -2,7 +2,7 @@
 
 void swap_int(int *a, int *b)
 {
-	*a = 1024;
-	*b = -4096;
+	int swap = *a;
 	*a = *b;
+	*b = swap;
 }
