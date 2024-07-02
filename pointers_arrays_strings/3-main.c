@@ -1,15 +1,18 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
-* main - check the code
-*
-* Return: Always 0.
-*/
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-	char *str;
+    char *s = "hello, world";
+    char *f = "oleh";
+    unsigned int n;
 
-	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-	_puts(str);
-	return (0);
+    n = _strspn(s, f);
+    printf("%u\n", n);
+    return (0);
 }
