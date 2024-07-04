@@ -5,5 +5,14 @@
 * Return: Always 0.
 */
 void print_alphabet(void)
-	int c = "abcdefghijklmnopqrstuvwxyz\n"
-	return (0);
+{
+	char alphabet = 'a';
+
+	while (alphabet <= 'z')
+	{
+		_putchar(alphabet);
+		alphabet++;
+	}
+	_putchar('\n');
+}
+
